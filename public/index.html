@@ -222,6 +222,28 @@
 <script src="js/jquery.maskedinput.min.js"></script>
 <!-- Startup 3 JS (Custom js for all blocks) -->
 <script src="js/script.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyB6MVEVnPhggdpQnZZWPWfnsB1vnyH6z8I",
+    authDomain: "mattbet-page.firebaseapp.com",
+    projectId: "mattbet-page",
+    storageBucket: "mattbet-page.appspot.com",
+    messagingSenderId: "1068290524496",
+    appId: "1:1068290524496:web:3f61bf0f732ead7d305855",
+    measurementId: "G-GWP7ZJKHRP"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
